@@ -1,0 +1,46 @@
+name: TotalStats
+main: TotalStats\TotalStats
+version: 0.1.1
+author: laurobeleche
+api: [1.0.0, 2.0.0]
+load: STARTUP
+commands:
+ stats:
+  usage: "/stats <user>"
+  permissions: totalstats.command.stats
+ ranking:
+  usage: "/ranking <página> ou <nome>"
+  permissions: totalstats.command.ranking
+ oldt:
+  description: Comando interno.
+  usage: "/oldt"
+  permissions: totalstats.command.oldt
+ rconf:
+  description: Recarregas as configurações.
+  usage: "/rconf"
+  permissions: totalstats.command.rconf
+ pvpr:
+  description: Recarregas as configurações.
+  usage: "/pvpr [pg]"
+  permissions: totalstats.command.pvpr
+permissions:
+ totalstats:
+  default: op
+  description: "Allows using all the totalstats things"
+  children:
+   totalstats.command:
+    default: op
+    description: "Allows using all the totalstats commands"
+    children:
+     totalstats.command.oldt:
+      default: op
+      description: "Allows setting a player rank"
+     totalstats.command.stats:
+      default: true
+      description: "Allows setting a player rank"
+     totalstats.command.ranking:
+      default: true
+      description: "Allows setting a player rank"
+     totalstats.command.rconf:
+      default: op
+      description: "Allows setting a player rank"

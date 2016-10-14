@@ -1,0 +1,69 @@
+time: 10
+mysql_settings:
+ host: "127.0.0.1" #mysql host ip
+ port: 3306 #mysql server port
+ user: "root" #mysql user
+ password: "" #mysql password
+ database: "brasilcraft-pa" #mysql database
+multiplicador: 1
+pt_construir: 1
+pt_constuir: 1
+pt_quebrar: 1
+pt_miner: 1
+pt_miner_carvao: 2
+pt_miner_ferro: 4
+pt_miner_ouro: 6
+pt_miner_diamante: 8
+pt_miner_esmeralda: 10
+pt_miner_lapislazuli: 7
+pt_miner_redstone: 5
+pt_lenhador: 1
+pt_lenhador_carvalho: 1
+pt_lenhador_pinheiro: 2
+pt_lenhador_eucalipito: 3
+pt_lenhador_selva: 4
+pt_lenhador_acacia: 5
+pt_lenhador_carv_escuro: 6
+pt_kills: 2
+pt_crafts: 1
+pt_crafts_couro_capuz: 1
+pt_crafts_ferro_capuz: 2
+pt_crafts_ouro_capuz: 4
+pt_crafts_diamante_capuz: 8		 
+pt_crafts_couro_tunica: 4
+pt_crafts_ferro_tunica: 8
+pt_crafts_ouro_tunica: 16
+pt_crafts_diamante_tunica: 32		 
+pt_crafts_couro_calca: 2
+pt_crafts_ferro_calca: 4
+pt_crafts_ouro_calca: 8
+pt_crafts_diamante_calca: 16		 
+pt_crafts_couro_botas: 3
+pt_crafts_ferro_botas: 6
+pt_crafts_ouro_botas: 12
+pt_crafts_diamante_botas: 24		 
+pt_crafts_madeira_espada: 1
+pt_crafts_pedra_espada: 2
+pt_crafts_ferro_espada: 4
+pt_crafts_ouro_espada: 8
+pt_crafts_diamante_espada: 16	 
+pt_crafts_madeira_picareta: 1
+pt_crafts_pedra_picareta: 2
+pt_crafts_ferro_picareta: 4
+pt_crafts_ouro_picareta: 8
+pt_crafts_diamante_picareta: 16		 
+pt_crafts_madeira_pa: 1
+pt_crafts_pedra_pa: 2
+pt_crafts_ferro_pa: 4
+pt_crafts_ouro_pa: 8
+pt_crafts_diamante_pa: 16		 
+pt_crafts_madeira_machado: 1
+pt_crafts_pedra_machado: 2
+pt_crafts_ferro_machado: 4
+pt_crafts_ouro_machado: 8
+pt_crafts_diamante_machado: 16		 
+pt_crafts_madeira_enchada: 1
+pt_crafts_pedra_enchada: 2
+pt_crafts_ferro_enchada: 4
+pt_crafts_ouro_enchada: 8
+pt_crafts_diamante_enchada: 16
